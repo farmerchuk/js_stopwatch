@@ -75,8 +75,8 @@ var stopwatch = {
       $startStopBtn = $(e.currentTarget);
 
       if ($startStopBtn.html() === 'Start') {
-        $startStopBtn.html('Stop');
         this.startStopwatch();
+        $startStopBtn.html('Stop');
       } else {
         this.stopStopwatch();
         $startStopBtn.html('Start');
