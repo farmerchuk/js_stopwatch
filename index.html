@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Stopwatch</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.js"></script>
+  </head>
+
+  <body>
+
+    <section id="stopwatch">
+
+      <section id="timer">
+        <div class="time-segment" id="hours">00</div>
+        <div class="colon">:</div>
+        <div class="time-segment" id="minutes">00</div>
+        <div class="colon">:</div>
+        <div class="time-segment" id="seconds">00</div>
+        <div class="colon">:</div>
+        <div class="time-segment" id="centiseconds">00</div>
+      </section>
+
+      <section id="controls">
+        <a id="start-stop" href="#">Start</a>
+        <a id="reset" href="#">Reset</a>
+      </section>
+
+    </section>
+
+    <script src="script.js"></script>
+
+  </body>
+
+</html>

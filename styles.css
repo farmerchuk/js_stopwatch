@@ -1,0 +1,42 @@
+@import url("reset.css");
+
+html {
+  font: bold 100px "Nunito", sans-serif;
+  color: #fff;
+}
+
+body {
+  background: #363636;
+}
+
+#stopwatch {
+  width: 600px;
+  margin: 200px auto 0 auto;
+}
+
+#timer {
+  padding-left: 27px;
+  overflow: auto;
+  display: block;
+}
+
+#timer div {
+  float: left;
+}
+
+#controls {
+  text-align: center;
+  display: block;
+}
+
+#controls a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 40px;
+  font-weight: normal;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  padding: 5px 20px;
+  width: 150px;
+}
